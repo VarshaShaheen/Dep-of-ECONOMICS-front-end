@@ -39,6 +39,10 @@ body {
   overflow-x: hidden;
 }
 
+.logo {
+  width: 18%;
+}
+
 .no-padding {
   padding: 0;
 }
@@ -179,6 +183,7 @@ img {
 /*==================
  NAVBAR SECTION
 ====================*/
+
 #mu-menu {
   display: inline;
   float: left;
@@ -423,7 +428,7 @@ img {
   width: 100%;
 }
 #mu-service .mu-service-area .mu-service-single {
-  background-color: #01bafd;
+  background-color: #286090;
   color: #fff;
   display: inline;
   float: left;
@@ -435,7 +440,7 @@ img {
   background-color: #2ecc71;
 }
 #mu-service .mu-service-area .mu-service-single:nth-child(3) {
-  background-color: #45a0de;
+  background-color: #286090;
 }
 #mu-service .mu-service-area .mu-service-single span {
   font-size: 30px;
@@ -454,7 +459,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  padding: 100px 0;
+  padding-top: 100px;
 }
 #mu-about-us .mu-about-us-area {
   display: inline;
@@ -563,8 +568,9 @@ img {
   background-size: 100%;
   display: inline;
   float: left;
-  padding: 100px 0;
+  padding: 121px 0;
   width: 100%;
+  height: auto;
 }
 #mu-abtus-counter .mu-abtus-counter-area {
   display: inline;
@@ -670,10 +676,10 @@ img {
  LATEST COURSES SECTION
 ====================*/
 #mu-latest-courses {
-  background-color: #333;
+  background-color: white;
   display: inline;
   float: left;
-  padding: 100px 0;
+  padding: 50px 0;
   width: 100%;
 }
 #mu-latest-courses .mu-latest-courses-area {
@@ -682,10 +688,10 @@ img {
   width: 100%;
 }
 #mu-latest-courses .mu-latest-courses-area .mu-title h2 {
-  color: #fff;
+  color: #333333;
 }
 #mu-latest-courses .mu-latest-courses-area .mu-title p {
-  color: #fff;
+  color: #286090;
 }
 #mu-latest-courses .mu-latest-courses-area .mu-latest-courses-content {
   display: inline;
@@ -697,7 +703,7 @@ img {
   outline: none;
 }
 #mu-latest-courses .mu-latest-courses-area .mu-latest-courses-content .slick-dots li {
-  background-color: #fff;
+  background-color: #333333;
   border-radius: 4px;
   height: 8px;
   width: 20px;
@@ -707,7 +713,8 @@ img {
 }
 
 .mu-latest-course-single {
-  background-color: #fff;
+  background-color: #333333;
+  opacity: 0.9;
   display: inline;
   float: left;
   width: 100%;
@@ -752,11 +759,11 @@ img {
   padding: 15px;
 }
 .mu-latest-course-single .mu-latest-course-single-content h4 {
-  color: #333;
+  color: white;
   line-height: 1.4;
 }
 .mu-latest-course-single .mu-latest-course-single-content h4 a {
-  color: #333;
+  color: white;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -767,6 +774,7 @@ img {
   font-size: 14px;
   letter-spacing: 0.3px;
   line-height: 1.7;
+  color: white;
 }
 .mu-latest-course-single .mu-latest-course-single-content .mu-latest-course-single-contbottom {
   border-top: 1px solid #ccc;
@@ -786,7 +794,7 @@ img {
   transition: all 0.5s;
 }
 .mu-latest-course-single .mu-latest-course-single-content .mu-latest-course-single-contbottom .mu-course-details:hover, .mu-latest-course-single .mu-latest-course-single-content .mu-latest-course-single-contbottom .mu-course-details:focus {
-  color: #333;
+  color: white;
 }
 .mu-latest-course-single .mu-latest-course-single-content .mu-latest-course-single-contbottom .mu-course-price {
   display: inline-block;
@@ -812,11 +820,13 @@ img {
   float: left;
   margin-top: 50px;
   width: 100%;
+
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single {
   display: inline;
   float: left;
   width: 100%;
+  align-items: center;
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single:hover .mu-our-teacher-img .mu-our-teacher-social {
   opacity: 1;
@@ -2184,12 +2194,12 @@ img {
   }
 
   .navbar-toggle {
-    background-color: #01bafd;
+    background-color: #333;
     border-radius: 0;
   }
 
   .navbar-default .navbar-toggle {
-    border-color: #01bafd;
+    background-color: #333;
   }
 
   .navbar-default .navbar-toggle .icon-bar {
@@ -2197,7 +2207,7 @@ img {
   }
 
   .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #01bafd;
+    background-color: #286090;
   }
 
   #mu-menu .navbar-default .navbar-nav li > a {

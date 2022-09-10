@@ -1352,9 +1352,7 @@
 }
 .fa-institution:before,
 .fa-bank:before,
-.fa-university:before {
-  content: "\f19c";
-}
+
 .fa-mortar-board:before,
 .fa-graduation-cap:before {
   content: "\f19d";
