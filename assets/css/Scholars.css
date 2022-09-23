@@ -1,7 +1,13 @@
+.table-section{
+    padding-top: 270px;
+}
+
+
 table {
     width: 900px;
     border-collapse: collapse;
     margin:50px auto;
+    padding-top: 10px;
 }
 
 /* Zebra striping */
@@ -10,7 +16,7 @@ tr:nth-of-type(odd) {
 }
 
 th {
-    background: #3498db;
+    background:  #286090;
     color: white;
     font-weight: bold;
     min-width: 10px;
