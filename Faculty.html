@@ -36,118 +36,26 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+    </script>
+    <script>
+        $(function(){
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+
 </head>
 <body>
+<div id="header"></div>
 <!--START SCROLL TOP BUTTON -->
 <a class="scrollToTop" href="#">
     <i class="fa fa-angle-up"></i>
 </a>
-<!-- END SCROLL TOP BUTTON -->
 
-<!-- Start header  -->
-<header id="mu-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <div class="mu-header-area">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            <div class="mu-header-top-left">
-                                <div class="mu-top-email">
-                                    <i class="fa fa-envelope"></i>
-                                    <span>appliedeconomics@cusat.ac.in</span>
-                                </div>
-                                <div class="mu-top-phone">
-                                    <i class="fa fa-phone"></i>
-                                    <span>+91-8547881732</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-<!-- End header  -->
-<!-- Start menu -->
-<section id="mu-menu">
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- LOGO -->
-                <!-- TEXT BASED LOGO -->
-                <a class="navbar-brand" href="index.html"><img class="logo" src="assets/img/logo.png" alt="logo"></a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<span class="fa fa-angle-down"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="About-us.html">About Us</a></li>
-                            <li><a href="hod.html">Hod's desk</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Course <span class="fa fa-angle-down"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="course.html">Course Archive</a></li>
-
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Team<span class="fa fa-angle-down"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="Hod.html">Hod</a></li>
-                            <li><a href="Faculty.html">Faculty</a></li>
-                            <li><a href="Non-teaching-staff.html">Non teaching staff</a></li>
-                            <li><a href="Research-scholars.html">Research scholars</a></li>
-                            <li><a href="Students.html">Students</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research<span class="fa fa-angle-down"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="course.html">Research area</a></li>
-                            <li><a href="course-detail.html">Patent</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="Activities.html">Activities</a></li>
-                    <li><a href="facilities.html">Facilities</a></li>
-                    <li><a href="news.html">News and event</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="#" id="mu-search-icon"><i class="fa fa-search"></i></a></li>
-                </ul>
-            </div><!--/.nav-collapse -->
-        </div>
-    </nav>
-    <!-- End menu -->
-    <!-- Start search box -->
-    <div id="mu-search">
-        <div class="mu-search-area">
-            <button class="mu-search-close"><span class="fa fa-close"></span></button>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <form class="mu-search-form">
-                            <input type="search" placeholder="Type Your Keyword(s) & Hit Enter">
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
 <section style="margin-top: 13em !important;" class="section-contact">
     <div class="contact-card">
         <div class="card-image">
@@ -198,11 +106,13 @@
             <h2>Dr. S Harikumar</h2>
             <h5>Adjunct Faculty</h5>
         </div>
-<!--        <div class="card-text">-->
-<!--            <p>B.Tech.,MBA, MA (Eco), M.Com, Ph.D, D.Litt.</p>-->
+        <div class="card-text">
+            <p>MA, Phd</p>
 <!--            <p>Contact: 9447664949       </p>-->
 <!--            <p>Mail: manoj_p_k@cusat.ac.in   </p>-->
-<!--        </div>-->
+        </div>
     </div>
+</section>
+<div id="footer"></div>
 </body>
 </html>
