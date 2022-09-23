@@ -40,7 +40,7 @@ body {
 }
 
 .logo {
-  width: 18%;
+  width: 25%;
 }
 
 .no-padding {
@@ -353,7 +353,7 @@ img {
   height: 500px;
 }
 #mu-slider .mu-slider-single .mu-slider-img:after {
-  background-color: rgba(0, 0, 0, 0.5);
+  /*background-color: rgba(0, 0, 0, 0.5);*/
   content: '';
   position: absolute;
   left: 0;
@@ -370,11 +370,11 @@ img {
   height: 100%;
 }
 #mu-slider .mu-slider-single .mu-slider-content {
-  color: #fff;
+  color: #FFFFFF;
   position: absolute;
   left: 0;
   right: 0;
-  top: 20%;
+  top: 40%;
   padding: 0 15%;
   width: 100%;
   text-align: center;
@@ -611,7 +611,7 @@ img {
 #mu-features {
   display: inline;
   float: left;
-  padding: 100px 0;
+  padding: 57px 0;
   width: 100%;
 }
 #mu-features .mu-features-area {
@@ -807,7 +807,7 @@ img {
 #mu-our-teacher {
   display: inline;
   float: left;
-  padding: 100px 0;
+  padding: 0 0;
   width: 100%;
 }
 #mu-our-teacher .mu-our-teacher-area {
@@ -2040,7 +2040,8 @@ img {
   }
 
   #mu-slider .mu-slider-single .mu-slider-content {
-    top: 13%;
+    top: 35%;
+    margin-top: 15px;
   }
 }
 @media (max-width: 991px) {
@@ -2222,6 +2223,7 @@ img {
   #mu-abtus-counter {
     background-position: center center;
     background-size: cover;
+    align-items: center;
   }
 
   #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single {
