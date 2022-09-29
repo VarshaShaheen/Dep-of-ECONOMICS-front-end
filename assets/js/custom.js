@@ -1,5 +1,5 @@
 /** 
-  * Template Name: Varsity
+  * Template Name: Applied Economics
   * Version: 1.0  
   * Template Scripts
   * Author: MarkUps
